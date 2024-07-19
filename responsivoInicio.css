@@ -1,0 +1,228 @@
+@media screen and (max-width: 730px) {
+    .Sbaner {
+
+        display: flex;
+        justify-content: center;
+        background-color: #ff6ba4;
+        min-height: 100vh;
+    }
+
+    .baner {
+        padding-top: 260px;
+        width: 350px;
+        height: 500px;
+
+    }
+
+    .s2 {
+        min-height: 100vh;
+        display: flex;
+        margin-bottom: 80px;
+        flex-direction: column;
+    }
+
+    .sobreFTC {
+        width: 300px;
+        height: 360px;
+        background-color: black;
+        margin-top: 140px;
+        color: #E4CBD5;
+        text-align: center;
+        border-radius: 5%;
+        box-shadow: 2px 2px 4px black;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .fotosFTC {
+        width: 300px;
+        height: 260px;
+        background-color: black;
+        margin-top: 140px;
+        color: #E4CBD5;
+        text-align: center;
+        border-radius: 5%;
+        box-shadow: 2px 2px 4px black;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .slide img {
+        width: 300px;
+        height: 260px;
+        border-radius: 5%;
+        margin-right: 50px;
+        }
+
+    .slide {
+        top: 0;
+        opacity: 0;
+        width: 300px;
+        height: 260px;
+        display: block;
+        position: absolute;
+        transform: scale(0);
+        transition: all .7s ease-in-out 0.1s;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .nav label {
+        margin-top: 40px;
+        width: 80px;
+        height: 50%;
+        display: none;
+        position: absolute;
+        opacity: 0;
+        z-index: 9;
+        cursor: pointer;
+        transition: opacity .2s;
+        color: #FFF;
+        font-size: 156pt;
+        text-align: center;
+        line-height: 150px;
+        font-family: "Varela Round", sans-serif;
+        background-color: rgba(255, 255, 255, .3);
+        text-shadow: 0px 0px 15px rgb(119, 119, 119);
+        border-radius: 5%;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .slides-front {
+        width: 300px;
+        height: 370px;
+        display: block;
+        margin: auto;
+        position: relative;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .nav-dots .nav-dot {
+        top: 290px;
+        width: 15px;
+        height: 15px;
+        margin: 0 4px;
+        position: relative;
+        border-radius: 100%;
+        display: inline-block;
+        background-color: rgba(0, 0, 0, 0.6);
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .tituloTainha {
+        font-size: 40px;
+        margin-bottom: 20px;
+    }
+    
+    .textoTainha {
+        font-size: 18px;
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+
+    .quemSomos {
+        position: absolute;
+        top: 60%;
+        left: 50%;
+        height: 900px;
+        transform: translate(-50%, -50%);
+        background-color: #E0A1BC;
+        width: 90%;
+        height: 600px;
+        border-radius: 10px;
+        text-align: center;
+        color: #331C26;
+        width: 90%;
+    }
+
+    .l1 {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 250px;
+        flex-direction: column;
+    }
+
+    .Integrante {
+        width: 300px;
+        height: 300px;
+        color: #331C26;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 250px;
+    }
+    
+    .primeiroIntegrante {
+        width: 300px;
+        height: 300px;
+        color: #331C26;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .s5 {
+        display: flex;
+        justify-content: center;
+        background-color: black;
+        color: white;
+        height: 900px;
+        flex-direction: column;
+    }
+
+}
+
+@media screen and (max-width: 730px) {
+    .nav-bar {
+        padding: 1.5rem 4rem;
+        width: 390px;
+    }
+
+    .icon{
+        width: 50px;
+        height: 50px;
+        margin-top: -5px;
+        margin-right: -40px;
+    }
+    .nav-item {
+        display: none;
+    }
+    .login-button {
+        display: none;
+    }
+    .mobile-menu-icon {
+        display: block;
+    }
+    .mobile-menu-icon button {
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+    }
+    .mobile-menu ul {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding-bottom: 1rem;
+        background-color: #331c269a;
+        margin-top: 100px;
+        position: fixed;
+        width: 390px;
+        z-index: 29;
+        border-bottom:  solid 5px #8f5a71;
+    }
+    .mobile-menu .nav-item {
+        display: block;
+        padding-top: 1.2rem;
+    }
+    .mobile-menu .login-button {
+        display: block;
+        padding: 1rem 2rem;
+    }
+    .mobile-menu .login-button button {
+        width: 100%;
+    }
+    .open {
+        display: block;
+    }
+}

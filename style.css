@@ -1,0 +1,478 @@
+html {
+    scroll-behavior: smooth;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+body {
+    background-color: #E0A1BC;
+    width: 100vw;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+.nav-bar {
+    position: fixed;
+    top: 0;
+    background-color: #331C26;
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5rem 6rem;
+    height: 100px;
+    width: 1350px;
+    z-index: 30;
+    border: solid 5px #8f5a71;
+    border-left: none;
+    border-right: none;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    height: 200px;
+    width: 80px;
+    transform: rotate(270deg);
+    margin-top: -80px;
+}
+
+.nav-list {
+    display: flex;
+    align-items: center;
+}
+
+.nav-list ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+.nav-item {
+    margin: 0 15px;
+}
+
+.nav-link {
+    text-decoration: none;
+    font-size: 1.15rem;
+    color: #fff;
+    font-weight: 400;
+}
+
+.login-button button {
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    background-color: #0187a7;
+}
+
+.login-button button a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 500;
+    font-size: 1.1rem;
+}
+
+.mobile-menu-icon {
+    display: none;
+}
+
+.mobile-menu {
+    display: none;
+}
+
+.baner {
+    height: 500px;
+    width: auto;
+
+}
+
+.Sbaner {
+
+    display: flex;
+    justify-content: center;
+    background-color: #ff6ba4;
+    min-height: 100vh;
+}
+
+.banner {
+    height: 100vh;
+    min-width: 100vw;
+}
+
+.s2 {
+    min-height: 100vh;
+    display: flex;
+    margin-bottom: 80px;
+}
+
+.sobreFTC {
+    width: 600px;
+    height: 370px;
+    background-color: black;
+    margin-left: 50px;
+    margin-right: 30px;
+    margin-top: 140px;
+    color: #E4CBD5;
+    padding: 5%;
+    text-align: center;
+    border-radius: 5%;
+    box-shadow: 2px 2px 4px black;
+}
+
+
+.tituloFTC {
+    font-size: 50px;
+    margin-bottom: 50px;
+}
+
+.textoFTC {
+    font-size: 60px;
+}
+
+img {
+    width: 500px;
+    height: 370px;
+}
+
+.fotosFTC {
+    width: 600px;
+    height: 370px;
+    background-color: black;
+    margin-left: 60px;
+    margin-right: 30px;
+    margin-top: 140px;
+    border-radius: 5%;
+    box-shadow: 2px 2px 4px black;
+    display: flex;
+}
+
+@import url(https://fonts.googleapis.com/css?family=Varela+Round);
+
+
+.div-slider {
+    width: auto;
+    height: auto;
+    text-align: center;
+    border-radius: 0px;
+
+}
+
+.slides-front {
+
+    width: 600px;
+    height: 370px;
+    display: block;
+    margin: auto;
+    position: relative;
+
+}
+
+.slides-front * {
+    user-select: none;
+    -ms-user-select: none;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    -webkit-touch-callout: none;
+}
+
+.slides-front input {
+    display: none;
+}
+
+.slide-container {
+    display: block;
+}
+
+.slide {
+    top: 0;
+    opacity: 0;
+    width: 600px;
+    height: 370px;
+    display: block;
+    position: absolute;
+
+    transform: scale(0);
+
+    transition: all .7s ease-in-out 0.1s;
+}
+
+.slide img {
+    width: 600px;
+    height: 370px;
+    border-radius: 5%;
+
+
+}
+
+.nav label {
+    margin-top: 40px;
+
+    width: 100px;
+    height: 80%;
+    display: none;
+    position: absolute;
+    opacity: 0;
+    z-index: 9;
+    cursor: pointer;
+    transition: opacity .2s;
+    color: #FFF;
+    font-size: 156pt;
+    text-align: center;
+    line-height: 270px;
+    font-family: "Varela Round", sans-serif;
+    background-color: rgba(255, 255, 255, .3);
+    text-shadow: 0px 0px 15px rgb(119, 119, 119);
+    border-radius: 5%;
+}
+
+.slide:hover+.nav label {
+    opacity: 0.5;
+}
+
+.nav label:hover {
+    opacity: 1;
+}
+
+.nav .next {
+    right: 0;
+}
+
+input:checked+.slide-container .slide {
+    opacity: 1;
+
+    transform: scale(1);
+
+    transition: opacity 1s ease-in-out 0.1s;
+}
+
+input:checked+.slide-container .nav label {
+    display: block;
+}
+
+.nav-dots {
+    width: 100%;
+    bottom: 9px;
+    height: 11px;
+    display: block;
+    position: relative;
+    text-align: center;
+
+}
+
+.nav-dots .nav-dot {
+    top: 390px;
+    width: 15px;
+    height: 15px;
+    margin: 0 4px;
+    position: relative;
+    border-radius: 100%;
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.nav-dots .nav-dot:hover {
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+input#img-1:checked~.nav-dots label#img-dot-1,
+input#img-2:checked~.nav-dots label#img-dot-2,
+input#img-3:checked~.nav-dots label#img-dot-3,
+{
+background: rgba(0, 0, 0, 0.8);
+}
+
+.s3 {
+    min-height: 700px;
+    display: flex;
+    background-color: #331C26;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    width: 100vw;
+}
+
+.quemSomos {
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    height: 900px;
+    transform: translate(-50%, -50%);
+    background-color: #E0A1BC;
+    width: 90%;
+    height: 70%;
+    border-radius: 10px;
+    text-align: center;
+    color: #331C26;
+    width: 90%;
+}
+
+.tituloTainha {
+    font-size: 60px;
+    margin-bottom: 50px;
+}
+
+.textoTainha {
+    font-size: 30px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.outro {
+    justify-content: center;
+    background-color: #331C26;
+    min-height: 100vh;
+    color: #E0A1BC;
+    text-align: center;
+
+}
+
+.s4 {
+    justify-content: center;
+    background-color: #331C26;
+    min-height: 100vh;
+    color: #E0A1BC;
+    text-align: center;
+
+}
+
+.tituloNome {
+    margin-top: 80px;
+    font-size: 60px;
+}
+
+.nomeFoto {
+    border: 2px solid #331C26;
+    min-height: 100vh;
+    width: 100vw;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.espaçamento {
+    background-color: #331C26;
+    height: 50px;
+}
+
+.nomeIntegrante {
+    border-radius: 10px;
+    background-color: #E0A1BC;
+    height: 60px;
+    vertical-align: middle;
+    display: table-cell;
+    width: 300px;
+}
+
+.fotoIntegrante {
+    border-radius: 10px;
+
+}
+
+.Integrante {
+    width: 300px;
+    height: 300px;
+    color: #331C26;
+
+}
+
+.primeiroIntegrante {
+    width: 300px;
+    height: 300px;
+    color: #331C26;
+
+}
+
+.espaçoFotoTexto {
+    height: 20px;
+}
+
+.imgIntegrante {
+    width: 300px;
+    height: 400px;
+    border-radius: 10px;
+}
+
+.espaçoEntreFoto {
+    width: 50px;
+}
+
+.l1 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 250px;
+}
+
+
+.s5 {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    height: 400px;
+
+}
+
+.sobre {
+    color: wheat;
+
+    width: 200px;
+    margin: 20px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.contato {
+    color: wheat;
+    margin-top: 50px;
+    width: 200px;
+    margin: 20px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+}
+
+.redesSociais {
+    color: wheat;
+    width: 200px;
+    margin: 20px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.textoSobre {
+    margin-top: 50px;
+}
+
+.logoInstagram {
+    width: 30px;
+    height: 30px;
+}
+
+.listaRedes {
+    margin-top: 50px;
+    list-style-type: none
+}
+
+.ulContato {
+    margin-top: 50px;
+}
+
+.l1prata {
+    margin: 20px;
+
+}

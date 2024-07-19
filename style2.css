@@ -1,0 +1,282 @@
+html {
+    scroll-behavior: smooth;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+body {
+    background-color: #E0A1BC;
+    width: 100vw;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+.nav-bar {
+    position: fixed;
+    top: 0;
+    background-color: #331C26;
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5rem 6rem;
+    height: 100px;
+    width: 1350px;
+    z-index: 30;
+    border: solid 5px #8f5a71;
+    border-left: none;
+    border-right: none;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    height: 180px;
+    width: 70px;
+    transform: rotate(270deg);
+    margin-top: -80px;
+}
+
+.nav-list {
+    display: flex;
+    align-items: center;
+}
+
+.nav-list ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+.nav-item {
+    margin: 0 15px;
+}
+
+.nav-link {
+    text-decoration: none;
+    font-size: 1.15rem;
+    color: #fff;
+    font-weight: 400;
+}
+
+.login-button button {
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    background-color: #0187a7;
+}
+
+.login-button button a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 500;
+    font-size: 1.1rem;
+}
+
+.mobile-menu-icon {
+    display: none;
+}
+
+.mobile-menu {
+    display: none;
+}
+
+.baner {
+    height: 500px;
+    width: auto;
+
+}
+
+.Sbaner {
+
+    display: flex;
+    justify-content: center;
+    background-color: #ff6ba4;
+    min-height: 100vh;
+}
+
+.s2 {
+    min-height: 100vh;
+    margin-bottom: 80px;
+}
+
+.titulo {
+    display: flex;
+    justify-content: center;
+}
+
+.planoPatrocinio {
+    text-align: center;
+    height: 80px;
+    width: 330px;
+    border-radius: 15px;
+    margin-top: 80px;
+    background-color: #331C26;
+    color: #E0A1BC;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    box-shadow: 2px 2px 4px black;
+
+}
+
+.espaçoPatrocinio1 {
+    display: flex;
+    justify-content: center;
+}
+
+.plano1 {
+    width: 300px;
+    height: 400px;
+    margin: 20px;
+    background-color: #331C26;
+    border-radius: 15px;
+    color: #E0A1BC;
+}
+
+.plano2 {
+    width: 300px;
+    height: 400px;
+    margin: 20px;
+    background-color: #331C26;
+    border-radius: 15px;
+    color: #E0A1BC;
+}
+
+.plano3 {
+    width: 300px;
+    height: 400px;
+    margin: 20px;
+    background-color: #331C26;
+    border-radius: 15px;
+    color: #E0A1BC;
+}
+
+.bronze {
+    display: flex;
+    justify-content: center;
+}
+
+.tituloBronze {
+    margin-top: 10px;
+    font-size: 30px;
+    color: rgb(185, 118, 36);
+}
+
+.preçoBronze {
+    font-size: 50px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+}
+
+.risco {
+    margin-left: 8px;
+    font-size: 40px;
+}
+
+.vantagensBronze {
+    margin: 20px;
+    margin-top: 50px;
+}
+
+.l1prata {
+    margin: 20px;
+
+}
+
+.tituloPrata {
+    margin-top: 10px;
+    font-size: 30px;
+    color: rgb(196, 238, 255);
+}
+
+.tituloOuro {
+    margin-top: 10px;
+    font-size: 30px;
+    color: rgb(238, 255, 0);
+}
+
+.tituloPlatina {
+    font-size: 30px;
+    color: rgb(91, 217, 255);
+    margin-top: 10px;
+
+}
+
+.tituloUltimate {
+    font-size: 30px;
+    color: rgb(21, 255, 0);
+    margin-top: 10px;
+
+}
+
+.vantagensUltimate {
+    margin: 20px;
+    margin-top: 20px;
+}
+
+.s5 {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    height: 400px;
+
+}
+
+.sobre {
+    color: white;
+    width: 200px;
+    margin: 20px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.contato {
+    color: white;
+
+    width: 200px;
+    margin: 20px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+}
+
+.redesSociais {
+    color: white;
+    width: 200px;
+    margin: 20px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.textoSobre {
+    margin-top: 50px;
+}
+
+.logoInstagram {
+    width: 30px;
+    height: 30px;
+}
+
+.listaRedes {
+    margin-top: 50px;
+    list-style-type: none
+}
+
+.ulContato {
+    margin-top: 50px;
+}
